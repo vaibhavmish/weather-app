@@ -1,6 +1,6 @@
 
 const yargs=require("yargs");
-const geocode=require("./geocode/geocode");
+const geocode=require("./geocode.js");
 
 const argv=yargs
     .options({
